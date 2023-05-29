@@ -17,7 +17,15 @@ const FormField = ({labelName, type,name,placeholder,value,handleChange,isSurpri
           </button>
         )}
       </div>
-      <input/>
+      <input
+        type={type}
+        id={name}
+        name={name}
+        placeholder={placeholder}
+        value={value}
+        onChange={handleChange}
+        required
+      />
     </div>
   )
 }
