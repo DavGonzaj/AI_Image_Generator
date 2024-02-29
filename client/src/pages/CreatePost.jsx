@@ -16,7 +16,7 @@ const CreatePost = () => {
 
   const generateImg = ()=>{
     if(form.prompt){
-      
+      //prompt to generate image
     }
   }
 
