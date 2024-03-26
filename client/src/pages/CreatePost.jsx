@@ -15,7 +15,7 @@ const CreatePost = () => {
   const [loading,setLoading] = useState(false)
 
   const generateImg = ()=>{
-    if(form.prompt){
+    if(form.prompt){ //left off here
       //prompt to generate image
     }
   }
